@@ -1,0 +1,18 @@
+.hero-image {
+  width: 100%;
+  z-index: -1;
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+.month-container {
+  display: flex;
+  justify-content: center;
+}
+
+.month-info {
+  background-color: pink;
+  height: 4rem;
+  max-width: 600px;
+  flex-grow: 2;
+}
