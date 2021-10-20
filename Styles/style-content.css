@@ -1,0 +1,6 @@
+.content-hero {
+  width: 100%;
+  z-index: -1;
+  max-height: 80vh;
+  object-fit: cover;
+}
