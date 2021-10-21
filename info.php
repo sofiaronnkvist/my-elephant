@@ -13,9 +13,9 @@ require __DIR__ . '/PHP/arrays.php';
     <div class="main-info">
         <img src="#" alt="">
         <ul class="main-info">
-            <?PHP foreach ($perks as $key => $value) : ?>
+            <?php foreach ($perks as $key => $value) : ?>
                 <li><?= ucfirst("$key: $value\n") ?></li>
-            <?PHP endforeach; ?>
+            <?php endforeach; ?>
         </ul>
     </div>
     <div class="main-info">

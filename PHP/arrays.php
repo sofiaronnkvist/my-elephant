@@ -18,10 +18,10 @@ $months = [
 ];
 
 $perks = [
-    'health' => 'fruits and vegetables are awesome.',
-    'the environment' => 'less need for greenhouses.',
-    'nutrients' => 'a larger variety of greens is better for you.',
-    'taste' => 'fruits and vegetables in season are the tastiest!'
+    'health' => 'Fruits and vegetables are awesome.',
+    'the environment' => 'Less need for greenhouses.',
+    'nutrients' => 'A larger variety of greens is better for you.',
+    'taste' => 'Fruits and vegetables in season are the tastiest!'
 ];
 
 $fruitsAndVegetables = [

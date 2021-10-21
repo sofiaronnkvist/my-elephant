@@ -1,3 +1,7 @@
+:root {
+  font-family: 'IBM Plex Serif', serif;
+}
+
 .hero-image {
   width: 100%;
   z-index: -1;
