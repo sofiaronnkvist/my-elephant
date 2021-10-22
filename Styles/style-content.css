@@ -4,3 +4,9 @@
   max-height: 80vh;
   object-fit: cover;
 }
+
+.dropdown-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}

@@ -5,10 +5,14 @@ require __DIR__ . '/PHP/arrays.php';
 
 <main>
     <img class="info-hero-image" src="/Photos-icons/info-hero-image.jpg" alt="Seeds growing in black plastic containers.">
-    <div class="info-intro">
-        <h1 class="main-info-text">Why seasonally?</h1>
-        <p class="main-info-text">Sit pariatur tempor esse ullamco adipisicing aliqua dolore non ad pariatur quis incididunt sunt eiusmod. Dolore nisi ullamco culpa irure sit nulla anim qui reprehenderit laborum velit incididunt. Magna nostrud enim proident do dolore consectetur.</p>
-        <img class="main-info-image" src="/Photos-icons/info-subheading-image.jpg" alt="Cucumbers and tomatoes on a bed of newspaper.">
+    <div class="info-intro-container">
+        <div class="info-intro-text">
+            <h1 class="info-heading">Why seasonally?</h1>
+            <p class="info-body-text">Sit pariatur tempor esse ullamco adipisicing aliqua dolore non ad pariatur quis incididunt sunt eiusmod. Dolore nisi ullamco culpa irure sit nulla anim qui reprehenderit laborum velit incididunt. Magna nostrud enim proident do dolore consectetur.</p>
+        </div>
+        <div class="info-intro-image">
+            <img class="intro-image" src="/Photos-icons/info-subheading-image.jpg" alt="Cucumbers and tomatoes on a bed of newspaper.">
+        </div>
     </div>
     <div class="main-info">
         <img src="#" alt="">
