@@ -11,8 +11,10 @@ require __DIR__ . '/PHP/arrays.php';
             <?php endforeach; ?>
         </select>
     </div>
-    <div>
-
-    </div>
+    <?php foreach ($fruitsAndVegetables as $piece) : ?>
+        <div class="content-container">
+            <h2><?= $piece['name'] ?></h2>
+        </div>
+    <?php endforeach ?>
 </main>
 <?php require __DIR__ . '/PHP/footer.php'; ?>

@@ -10,3 +10,9 @@
   width: 100%;
   justify-content: center;
 }
+
+.content-container {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+}
