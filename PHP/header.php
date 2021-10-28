@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/Styles/style-footer.css">
     <link rel="stylesheet" href="/Styles/style-info.css">
     <link rel="stylesheet" href="/Styles/style-content.css">
+    <link rel="shortcut icon" type="image/jpg" href="/Photos-icons/faviconseason.svg" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
     </style>

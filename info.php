@@ -23,7 +23,9 @@ require __DIR__ . '/PHP/arrays.php';
         </ul>
     </div>
     <div class="main-info">
-        <button>See all of the fruits and vegetables!</button>
+        <form action="/content.php">
+            <button type="submit">See all of the fruits and vegetables!</button>
+        </form>
     </div>
 </main>
 <?php require __DIR__ . '/PHP/footer.php'; ?>

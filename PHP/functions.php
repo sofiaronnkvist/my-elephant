@@ -2,4 +2,14 @@
 
 declare(strict_types=1);
 
-require __DIR__ . '/PHP/arrays.php';
+
+function getRandomFruit()
+{
+    $randomFruit = [
+        'Apple' => '🍎',
+        'Pear' => '🍐',
+        'Tomato' => '🍅'
+    ];
+
+    return $randomFruit[array_rand($randomFruit)];
+}
