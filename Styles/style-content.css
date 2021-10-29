@@ -9,10 +9,26 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-top: 1rem;
 }
 
 .content-container {
-  width: 200px;
-  height: 200px;
-  background-color: pink;
+  width: 250px;
+  height: 250px;
+  border: solid #000 1px;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+@media only screen and (min-width: 560px) {
+  .boxes-container {
+    gap: 2rem;
+  }
 }

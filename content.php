@@ -18,18 +18,44 @@ require __DIR__ . '/PHP/functions.php';
             </select>
         </form>
     </div>
-    <?php
-    if (isset($_GET['sorting'])) {
-        foreach ($fruitMonths as $month) {
-            $name = $month['month'];
-            if ($_GET['sorting'] === $name) { ?>
+    <div class="boxes-container">
+        <?php
+        if (isset($_GET['sorting'])) {
+            foreach ($fruitMonths as $month) {
+                $name = $month['month'];
+                if ($_GET['sorting'] === $name) { ?>
+                    <div class="content-container">
+                        <h2><?= $month['name'] ?></h2>
+                        <p><?php if ($month['isVegetable'] === true) {
+                                echo "Vegetable.";
+                            } else {
+                                echo "Fruit.";
+                            }
+                            ?></p>
+                        <p><?= $month['description'] ?></p>
+                    </div>
+        <?php }
+            }
+        }
+        ?>
+    </div>
+    <div class="boxes-container">
+        <?php
+        if (empty($_GET['sorting'])) {
+            foreach ($fruitMonths as $month) { ?>
                 <div class="content-container">
-                    <h1><?= $month['name'] ?></h1>
+                    <h2><?= $month['name'] ?></h2>
+                    <p><?php if ($month['isVegetable'] === true) {
+                            echo "Vegetable.";
+                        } else {
+                            echo "Fruit.";
+                        }
+                        ?></p>
                     <p><?= $month['description'] ?></p>
                 </div>
-    <?php }
+        <?php }
         }
-    }
-    ?>
+        ?>
+    </div>
 </main>
 <?php require __DIR__ . '/PHP/footer.php'; ?>
