@@ -17,18 +17,26 @@ require __DIR__ . '/PHP/functions.php';
         </div>
     </section>
     <section class="gallery-container">
-        <div class="gallery-fruit-veg">
+        <div class="rutabaga-gallery">
             <img class="gallery-pic" src="/Photos-icons/rutabaga-gallery.jpg" alt="">
-            <form action="/content.php">
-                <button type="submit">Fruits and vegetables</button>
-            </form>
+        </div>
+        <div class="spinach-gallery">
             <img class="gallery-pic" src="/Photos-icons/spinach-gallery.jpg" alt="">
-            <form action="/info.php">
-                <button type="submit">About the seasons</button>
-            </form>
         </div>
     </section>
-    <div>
+    <div class="buttons-bottom">
+        <div class="buttons-element">
+            <form action="/content.php">
+                <button class="main-button" type="submit">Fruits and vegetables</button>
+            </form>
+        </div>
+        <div class="buttons-element">
+            <form action="/info.php">
+                <button class="main-button" type="submit">About the seasons</button>
+            </form>
+        </div>
+    </div>
+    <div class="fruit">
         <h1><?= getRandomFruit(); ?></h1>
     </div>
 </main>

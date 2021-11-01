@@ -26,12 +26,12 @@ require __DIR__ . '/PHP/functions.php';
                 if ($_GET['sorting'] === $name) { ?>
                     <div class="content-container">
                         <h2><?= $month['name'] ?></h2>
-                        <p><?php if ($month['isVegetable'] === true) {
-                                echo "Vegetable.";
-                            } else {
-                                echo "Fruit.";
-                            }
-                            ?></p>
+                        <p class="isVegetable"><?php if ($month['isVegetable'] === true) {
+                                                    echo "Vegetable.";
+                                                } else {
+                                                    echo "Fruit.";
+                                                }
+                                                ?></p><br>
                         <p><?= $month['description'] ?></p>
                     </div>
         <?php }
@@ -45,12 +45,12 @@ require __DIR__ . '/PHP/functions.php';
             foreach ($fruitMonths as $month) { ?>
                 <div class="content-container">
                     <h2><?= $month['name'] ?></h2>
-                    <p><?php if ($month['isVegetable'] === true) {
-                            echo "Vegetable.";
-                        } else {
-                            echo "Fruit.";
-                        }
-                        ?></p>
+                    <p class="isVegetable"><?php if ($month['isVegetable'] === true) {
+                                                echo "Vegetable.";
+                                            } else {
+                                                echo "Fruit.";
+                                            }
+                                            ?></p><br>
                     <p><?= $month['description'] ?></p>
                 </div>
         <?php }
