@@ -1,4 +1,4 @@
-<img src="https://media.giphy.com/media/l4FGHDDIodtnVjL1K/giphy.gif" width="100">
+<img src="https://media.giphy.com/media/l4FGHDDIodtnVjL1K/giphy.gif" width="100%">
 
 # Sea/son
 
