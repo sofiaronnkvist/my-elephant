@@ -24,7 +24,8 @@ $perks = [
     'health' => 'Fruits and vegetables are awesome.',
     'the environment' => 'Less need for greenhouses.',
     'nutrients' => 'A larger variety of greens is better for you.',
-    'taste' => 'Fruits and vegetables in season are the tastiest!'
+    'taste' => 'Fruits and vegetables in season are the tastiest!',
+    'co2 saved' => 1000
 ];
 
 $fruitMonths = [
